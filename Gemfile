@@ -32,6 +32,14 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# Upload image files
+gem 'carrierwave'
+
+# Mini image size
+gem 'mini_magick'
+gem 'fog-aws', '~> 3.18'
+
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
