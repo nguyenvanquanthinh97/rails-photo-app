@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= requrie 'twitter/bootstrap'
  *= require twitter-bootstrap-static/sprites
  *= require twitter-bootstrap-static/bootstrap
  */
