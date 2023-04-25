@@ -11,6 +11,9 @@ gem 'devise-bootstrap-views'
 
 gem 'sendgrid-ruby', '~> 6.6', '>= 6.6.2'
 
+# Payment gem
+gem 'stripe'
+
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 # Use SCSS for stylesheets

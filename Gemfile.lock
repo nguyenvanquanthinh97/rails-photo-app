@@ -213,6 +213,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.2)
       mini_portile2 (~> 2.8.0)
+    stripe (8.5.0)
     thor (1.2.1)
     tilt (2.1.0)
     timeout (0.3.2)
@@ -271,6 +272,7 @@ DEPENDENCIES
   sendgrid-ruby (~> 6.6, >= 6.6.2)
   spring
   sqlite3 (~> 1.4)
+  stripe
   turbolinks (~> 5)
   twitter-bootstrap-rails
   tzinfo-data
