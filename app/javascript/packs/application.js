@@ -86,4 +86,11 @@ $(document).on("ready turbolinks:load", function () {
 
     return false;
   };
+
+  $("#image_picture").bind("change", function (event) {
+    const size_in_megabytes = this.files[0].size / 1024 / 1024;
+    if (size_in_megabytes > 3) {
+      alert("Maximum file size is 3MB.");
+    }
+  });
 });
