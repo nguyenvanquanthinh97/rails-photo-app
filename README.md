@@ -1,24 +1,59 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo i have used:
 
-Things you may want to cover:
+## devise
 
-* Ruby version
+Use it to apply authentication
 
-* System dependencies
+## devise-bootstrap-views
 
-* Configuration
+## twitter-bootstrap-rails
 
-* Database creation
+To apply twitter bootstrap views for the pages
 
-* Database initialization
+## sendgrid-ruby
 
-* How to run the test suite
+this gem helps to send email notification whenever a user signed up
+And in the mail will have a verification link.
 
-* Services (job queues, cache servers, search engines, etc.)
+## stripe
 
-* Deployment instructions
+this gem helps to do the money transaction when using sign up, and hard-coding its fee is 10AUD
 
-* ...
+## carrierwave
+
+Upload image to rails
+
+## mini_magick
+
+Handle resize image. This will require to run with those commands in your computer
+in MAC
+
+```
+brew install imagemagick
+```
+
+in Ubuntu
+
+```
+sudo apt-get install libmagickwand-dev
+```
+
+## fog-aws
+
+aws cli to s3 bucket
+
+# ENV
+
+```S3_ACCESS_KEY=
+S3_SECRET_KEY=
+S3_REGION=
+S3_BUCKET=
+STRIPE_TEST_PUBLISHABLE_KEY=
+STRIPE_TEST_SECRET_KEY=
+```
+
+### Click the image to see the demo
+
+[![LINK_DEMO](./demo.png)](https://youtu.be/Tcvx7owz6M4)
